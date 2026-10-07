@@ -79,28 +79,30 @@ Most of the portfolio content can be edited from:
 
 ```text
 src/data/portfolio.js
+```
 
 This file centralizes the main content of the portfolio, making it easy to customize without modifying the individual components.
 
 You can update:
 
-Personal information
-Name and role
-Location and availability
-Email address
-Social media links
-Hero section
-About section
-Skills
-Projects
-Experience
-Services
-Contact section
-Footer
-Accent color
+- Personal information
+- Name and role
+- Location and availability
+- Email address
+- Social media links
+- Hero section
+- About section
+- Skills
+- Projects
+- Experience
+- Services
+- Contact section
+- Footer
+- Accent color
 
 ### Example
 
+```js
 export const portfolio = {
   brand: "Your Name",
   role: "Frontend Developer",
@@ -108,6 +110,7 @@ export const portfolio = {
   availability: "Available",
   email: "hello@example.com",
 }
+```
 
 Simply replace the example values with your own information.
 
@@ -147,6 +150,6 @@ dist/
 
 You can deploy the project using Vercel, Netlify, or any other hosting service that supports Vite applications.
 
-📄 License
+## 📄 License
 
 This template is provided as a customizable portfolio starter for developers and designers.
