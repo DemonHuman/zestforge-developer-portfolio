@@ -45,6 +45,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 🚀 Getting Started
 1. Install dependencies
