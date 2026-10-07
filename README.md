@@ -77,6 +77,7 @@ npm run build
 
 Most of the portfolio content can be edited from:
 
+```text
 src/data/portfolio.js
 
 This file centralizes the main content of the portfolio, making it easy to customize without modifying the individual components.
