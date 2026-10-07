@@ -2,6 +2,14 @@
 
 A modern, responsive and customizable portfolio template built for developers and designers.
 
+## 🚀 Get the Template
+
+Get the complete ZestForge portfolio template and customize it for your own website.
+
+**Price: €9.99**
+
+👉 [Get ZestForge on Gumroad](https://zestforge.gumroad.com/l/zestforge-modern-developer-portfolio)
+
 ## ✨ Features
 
 - Modern dark design
