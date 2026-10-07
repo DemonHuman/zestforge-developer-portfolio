@@ -47,24 +47,37 @@ src/
 └── index.css
 ```
 
-🚀 Getting Started
-1. Install dependencies
-npm install
+## 🚀 Getting Started
 
-2. Start the development server
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the development server
+
+```bash
 npm run dev
+```
 
 The website will usually be available at:
 
+```text
 http://localhost:5173
+```
 
-3. Build for production
+### 3. Build for production
+
+```bash
 npm run build
+```
 
-⚙️ Customization
+## ⚙️ Customization
 
 Most of the portfolio content can be edited from:
 
+```text
 src/data/portfolio.js
 
 This file centralizes the main content of the portfolio, making it easy to customize without modifying the individual components.
@@ -86,7 +99,9 @@ Contact section
 Footer
 Accent color
 
-Example
+### Example
+
+```js
 export const portfolio = {
   brand: "Your Name",
   role: "Frontend Developer",
@@ -94,34 +109,43 @@ export const portfolio = {
   availability: "Available",
   email: "hello@example.com",
 }
+```
 
 Simply replace the example values with your own information.
 
 No advanced coding knowledge is required for basic content customization.
 
-🎨 Changing the Accent Color
+## 🎨 Changing the Accent Color
 
 The main accent color is defined in:
 
+```text
 src/data/portfolio.js
+```
 
 Look for:
 
+```js
 theme: {
   accent: "#BF4A1A",
 },
+```
 
-Replace #BF4A1A with your preferred color.
+Replace `#BF4A1A` with your preferred color.
 
-🌐 Deployment
+## 🌐 Deployment
 
 After customizing your portfolio, create a production build with:
 
+```bash
 npm run build
+```
 
 The production files will be generated in:
 
+```text
 dist/
+```
 
 You can deploy the project using Vercel, Netlify, or any other hosting service that supports Vite applications.
 
