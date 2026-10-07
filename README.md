@@ -75,6 +75,7 @@ npm run build
 
 ## ⚙️ Customization
 
+````md
 Most of the portfolio content can be edited from:
 
 ```text
