@@ -75,10 +75,8 @@ npm run build
 
 ## ⚙️ Customization
 
-````md
 Most of the portfolio content can be edited from:
 
-```text
 src/data/portfolio.js
 
 This file centralizes the main content of the portfolio, making it easy to customize without modifying the individual components.
@@ -102,7 +100,6 @@ Accent color
 
 ### Example
 
-```js
 export const portfolio = {
   brand: "Your Name",
   role: "Frontend Developer",
@@ -110,7 +107,6 @@ export const portfolio = {
   availability: "Available",
   email: "hello@example.com",
 }
-```
 
 Simply replace the example values with your own information.
 
